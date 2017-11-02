@@ -1,0 +1,41 @@
+#cat-list-item:hover{
+  color: blue;
+  text-decoration: underline;
+  
+}
+
+.logo {
+  float: left;
+  margin-right: 10px;
+  font-size: 1.7em;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  padding-top: 9px;
+  font-weight: bold;
+}
+
+/* Horizontal list groups */
+
+.list-group-horizontal,
+.item-horizontal {
+  display: inline-block;
+}
+
+.list-group-horizontal,
+.item-horizontal {
+  margin-bottom: 0;
+  margin-left:-4px;
+  margin-right: 0;
+}
+
+.list-group-horizontal,
+.item-horizontal:first-child {
+  border-top-right-radius:0;
+  border-bottom-left-radius:4px;
+}
+
+.list-group-horizontal,
+.item-horizontal:last-child {
+  border-top-right-radius:4px;
+  border-bottom-left-radius:0;
+}
