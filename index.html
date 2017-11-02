@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="description" content="A responsive cat clicker app." />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- open graph meta tags -->
+    <meta property="og:image" content="http://rdgrmcore.github.io/cat-clicker/img/sasha.jpg" />
+    <meta name="twitter:image" content="http://rdgrmcore.github.io/cat-clicker/img/sasha.jpg" />
+
+    <title> Cat Clicker </title>
+
+    <!-- jQuery -->
+    <script src="js/libs/jquery.min.js"></script>
+
+    <!-- Bootstrap -->
+    <link href="css/libs/bootstrap.min.css" rel="stylesheet">
+
+    <!-- The App's JavaScript -->
+    <script src="js/clicks.js"></script>
+
+    <!-- Custom CSS -->
+    <link href="css/custom.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <header class="navbar navbar-static-top">
+      <div class="container">
+        <h1 class="logo"> Cat Clicker </h1>
+        <p class="nav navbar-nav navbar-right"> <a href="about.html">About </a></p>
+        </ul>
+      </div>
+    </header>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <h2> Choose a cat </h2>
+          <div id="cat-group">
+            <ul id="cat-list">
+            <!-- List items are filled in by JavaScript -->
+            </ul>
+          </div>
+        </div>
+    
+        <div class="col-md-9">
+          <h2 id="cat-name">kitten</h2>
+          <img id="cat-img" class="img-responsive" src="img/kitten.jpg">
+        </div>
+      </div>
+    </div>
+    
+  </body>
+</html>
