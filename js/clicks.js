@@ -7,7 +7,7 @@ var Model = {
     "visible": "false",
 
     cats: [
-      {"name": "Rudy",       "numClicks": 0},
+      {"name": "Rudy1",      "numClicks": 0},
       {"name": "Rudy2",      "numClicks": 0},
       {"name": "Rudy3",      "numClicks": 0},
       {"name": "Sabrina",    "numClicks": 0},
